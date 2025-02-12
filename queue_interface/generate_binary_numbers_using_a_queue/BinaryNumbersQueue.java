@@ -20,7 +20,7 @@ public class BinaryNumbersQueue {
 
     public static void main(String[] args) {
         int N = 5;
-        System.out.println("First " + N + " binary numbers:");
+        System.out.println("First " + N + " binary numbers :");
         generateBinaryNumbers(N);
     }
 }
