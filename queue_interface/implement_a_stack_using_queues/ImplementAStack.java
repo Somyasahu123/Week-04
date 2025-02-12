@@ -59,9 +59,9 @@ class StackUsingQueues {
         stack.push(2);
         stack.push(3);
 
-        System.out.println("Top Element: " + stack.top()); // 3
-        System.out.println("Popped Element: " + stack.pop()); // 3
-        System.out.println("Top Element: " + stack.top()); // 2
+        System.out.println("Top Element  : " + stack.top()); // 3
+        System.out.println("Popped Element : " + stack.pop()); // 3
+        System.out.println("Top Element : " + stack.top()); // 2
     }
 }
 
