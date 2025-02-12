@@ -23,7 +23,7 @@ public class HospitalTriage {
         queue.add(new Patient("Alice", 5));
         queue.add(new Patient("Bob", 2));
 
-        System.out.println("Order of treatment:");
+        System.out.println("Order of treatment :");
         while (!queue.isEmpty()) {
             System.out.println(queue.poll().name);
         }
