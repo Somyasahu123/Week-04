@@ -25,7 +25,7 @@ class CircularBuffer {
 
     // Display buffer contents
     public void display() {
-        System.out.print("Buffer: ");
+        System.out.print("Buffer  : ");
         for (int i = 0; i < size; i++) {
             System.out.print(buffer[(front + i) % capacity] + " ");
         }
@@ -41,6 +41,6 @@ class CircularBuffer {
         buffer.display(); // Output: [1, 2, 3]
 
         buffer.enqueue(4); // Overwrites 1
-        buffer.display(); // Output: [2, 3, 4]
+        buffer.display();
     }
 }
